@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#first{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+
+.active{
+    border-radius: 20px;
+    border: 5px solid #000;
+}
+
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    padding: 0 3rem;
+}
+
+header{
+    padding: 20px 0;
+    background-color: aqua;
+}
+
+#sidebar{
+    background-color: rgb(26, 145, 145);
+    width: 100%;
+    height: 0%;
+    left: 0;
+    transition: .5s;
+    visibility: hidden;
+    position: fixed;
+}
+
+#sidebar a{
+    display: block;
+    margin: 20px 0;
+    
+}
+
+#close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.side-active{
+    height: 100% !important;
+    visibility: visible !important;
+}
+
+/* img{
+    transition: 1s;
+}
+
+.text{
+    color: red;
+}
+
+.active{
+    border-radius: 100%;
+    transform: scale(1.2);
+    filter: grayscale(1);
+}
+
+#mouse{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    transition: .5s;
+}
+
+.X{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.Y{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.Z{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+} */
+
+/* Event Bubbling */
+/* Event Capturing */
